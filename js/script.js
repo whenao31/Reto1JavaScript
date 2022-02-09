@@ -1,9 +1,4 @@
-for(var i=0; i<10; i++) {
-    
-    for(var j=0; j<10; j++) {
-        document.write(nuevoArray[i][j]);
-    }
-}
+
 //SOFKI BOT MATRIZ RECTANGULAR 
 //SALTA A CASILLA ADYACENTE A VERTICAL O HORIZONTAL
 
@@ -13,3 +8,14 @@ for(var i=0; i<10; i++) {
 
 //SALIDA
 
+function matrizfuncion(matriz,cantFilas, cantColumnas, posInicial,posFinal){
+ let valoractual=
+ var columna=posInicial[0];
+
+    for(var numcolumna=0; numcolumna<10; numcolumna++) {
+        posactual()
+        for(var numfila=0; numfila<10; numfila++) {
+            document.write(matriz[numcolumna][numfila]);
+        }
+    }
+}
